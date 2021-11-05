@@ -10,11 +10,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
-<body>
-
-    <header>
-        <a href="/php_login">Your Name App</a>
-    </header>
+<body>   
+    
+    <?php require 'partials/header.php' ?>
     <h1>Please Login or SignUp</h1>
 
     <a href="login.php">Login</a> or
