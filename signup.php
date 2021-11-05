@@ -13,8 +13,12 @@
 
     <h1>SignUp</h1>
     <span>or <a href="login.php">Login</a></span>
-    <form action="index.html" method="post">
 
+    <form action="signup.php" method="post">
+        <input type="text" name="email" placeholder="Enter your mail">
+        <input type="password" name="password" placeholder="Enter your password">
+        <input type="password" name="confirm_password" placeholder="Confirm your password">
+        <input type="submit" value="Send">
     </form>
 </body>
 </html>
