@@ -11,6 +11,10 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
+
+    <header>
+        <a href="/php_login">Your Name App</a>
+    </header>
     <h1>Please Login or SignUp</h1>
 
     <a href="login.php">Login</a> or
